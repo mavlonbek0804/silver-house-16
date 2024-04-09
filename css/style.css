@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__navbar {
+    margin-top: 50px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.header__list-link {
+    color: #8C8A8A;
+    font-size: 18px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.header {
+    margin-bottom: 37px;
+}
+
+.main__img {
+    width: 100%; 
+}
+
+.information {
+    padding: 30px 0;
+}
+
+.information__content {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.advantages {
+    max-width: 730px;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 50px 95px 51px 40px;
+}
+
+.advantages__title {
+    color: #4581B7;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.advantages__p {
+    color: #808080;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.contacts {
+    max-width: 350px;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 50px 24px 51px 40px;
+}
+
+.contacts__title {
+    color: #4581B7;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.contacts__p {
+    color: #808080;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 27px;
+}
+
+.contacts__phone-number {
+    color: #808080;
+    font-size: 16px;
+    margin-bottom: 54px;
+    display: block;
+}
+
+.contacts__site {
+    color: #808080;
+    font-size: 16px;
+    line-height: 27px;
+    display: block;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    padding: 15px 40px;
+    flex-wrap: wrap;
+}
+
+.footer__text {
+    color: #808080;
+    text-align: right;
+    margin: 10px 0;
+}
+
+.footer__title {
+    margin-bottom: 11px;
+}
+
+.footer__phone-number {
+    font-size: 25px;
+    font-weight: bold;
+    color: #808080;
+}
+
+@media (max-width: 768px) {
+    .information__content{
+        flex-direction: column;
+    }
+    .advantages, .contacts {
+        max-width: 100%;
+
+    }
+    .footer__text{
+        text-align: left;
+    }
+}
